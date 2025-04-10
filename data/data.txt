@@ -1,0 +1,20 @@
+Username: 1
+Password: 1
+Full Name: 1
+Gender: male
+Date of Birth: 2025-04-07
+Phone Number: 111-1111-1111
+Nationality: nepal
+Address: 1
+Preferred Job Types: restaurant_serving
+-------------------------------------
+Username: 2
+Password: 2
+Full Name: 2
+Gender: male
+Date of Birth: 2025-04-07
+Phone Number: 222-2222-2222
+Nationality: pakistan
+Address: 2
+Preferred Job Types: restaurant_serving, kitchen, factory_worker
+-------------------------------------

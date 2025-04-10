@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="next.php" method="GET">
+        Comment: <textarea name="comment" rows="5" cols="30" maxlength="10"></textarea><br>
+        Volumn: <input type="range" name="volumn" min="0" max="100" value="50"><br>
+        <input type="hidden" name="securedata" value="abcd1234">
+
+        <input type="button" value="Prev" onclick="alert('Previous page.')">
+        <input type="button" value="Next" onclick="alert('Next page.')"><br>
+
+        Birthday: <input type="date" name="birthday" min="2001-01-01" min="2099-12-31" required><br>
+
+        Hobby:
+        <input type="checkbox" name="hobby" value="tennis">Tennis
+        <input type="checkbox" name="hobby" value="swimming">Swimming
+        <input type="checkbox" name="hobby" value="running">Running
+        <input type="checkbox" name="hobby" value="codding">Codding <br><br>
+        <input type="submit">&nbsp;<input type="reset"> 
+    </form>
+</body>
+</html>
