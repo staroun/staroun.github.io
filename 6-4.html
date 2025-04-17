@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Type Selector Example</title>
+    <title>ID Selector Example</title>
     <style>
-        p {
-            color: blue;
-            font-size: 18px;
+        #main-header {
+            background-color: lightblue;  color: white;
+            text-align: center;  padding: 10px;
         }
 
-        h1 {
-            font-family: Arial, sans-serif;
-            color: green;
+        #footer {
+            background-color: #333;  color: white;
+            text-align: center;  padding: 20px;
+            margin-top: 20px;
         }
     </style>
 </head>
 <body>
-    <h1>This is a Heading</h1>
-    <p>This is a paragraph styled using the type selector.</p>
-    <p>Another paragraph, also styled using the type selector.</p>
+    <h1 id="main-header">Welcome to My Website</h1>
+    <p>This paragraph is not affected by the ID selector.</p>
+    <footer id="footer">This is the footer of the page.</footer>
 </body>
 </html>
-
