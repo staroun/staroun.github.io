@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Child Selector Example</title>
+    <style>
+        div > p { color: red;  font-weight: bold; }
+        ul > li { color: blue;  list-style-type: square; }
+    </style>
+</head>
+<body>
+    <p>This paragraph is not a direct child of a div and will not be styled.</p>
+    <div>
+        <p>This paragraph is a direct child of a div and will be styled.</p>
+    </div>
+  <ul>
+    <li>Vegetables</li>
+    <li>Fruits</li>
+    <ol>
+      <li>Banana</li>
+      <li>Apple</li>  
+    </ol>
+  </ul>
+</body>
+</html>
+

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+</head>
+<body>
+  <h2>Registration Form</h2>
+  <form action="submit.asp" method="POST">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required>
+    <br><br>
+    
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+    <br><br>
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" name="name" required>
+    <br><br>
+    <label for="gender">Gender:</label>
+    <input type="radio" id="male" name="gender" value="male" required>
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female" required>
+    <label for="female">Female</label>
+    <br><br>
+    <label for="birthdate">Date of Birth:</label>
+    <input type="date" id="birthdate" name="birthdate" required>
+    <br><br>
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" placeholder="010-1234-5678" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}" required>
+    <br><br>
+    <label for="nationality">Nationality:</label>
+    <select id="nationality" name="nationality" required>
+      <option value="nepal">Nepal</option>
+      <option value="bangladesh">Bangladesh</option>
+      <option value="pakistan">Pakistan</option>
+      <option value="uzbekistan">Uzbekistan</option>
+      <option value="germany">Germany</option>
+      <option value="vietnam">Vietnam</option>
+    </select>
+    <br><br>
+    <label for="Address">Address:</label>
+    <textarea name="address" rows="3" cols="30"></textarea>
+    <br><br>
+    <label for="job-type">Preferred Part-Time Job Type:</label><br>
+    <input type="checkbox" id="serving" name="job_type" value="restaurant_serving">
+    <label for="restaurant_serving">Restaurant Serving</label><br>
+    <input type="checkbox" id="kitchen" name="job_type" value="kitchen">
+    <label for="kitchen">Kitchen</label><br>
+    <input type="checkbox" id="factory_worker" name="job_type" value="factory_worker">
+    <label for="factory_worker">Factory Worker</label><br>
+    <input type="checkbox" id="laborer" name="job_type" value="laborer">
+    <label for="laborer">Laborer</label><br>
+    <br><br>
+    <button type="submit">Register</button>&nbsp;
+    <button type="reset">Reset</button>
+  </form>
+</body>
+</html>

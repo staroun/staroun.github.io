@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="nextpage.asp" method="POST">
+        user id: <input type="text" required name="username" maxlength="5" placeholder="Enter User id" size="10"><br><br>
+        password: <input autofocus type="password" name="passwd"><br><br>
+        email: <input type="email" name="email"><br><br>
+        age: <input type="number" name="age" min="10" max="90" step="1"><br><br>
+        gender: <input type="radio" name="gender" value="m">Male
+        <input type="radio" name="gender" value="f" checked>Female<br><br>
+
+        hobby:
+        <input type="checkbox" name="hobby" value="t"> Tennis
+        <input type="checkbox" name="hobby" value="m"> Music
+        <input type="checkbox" name="hobby" value="c" checked> Codding<br><br>
+
+        birthday: <input type="date" name="birth"><br><br>
+        Choose a file: <input type="file" name="myfile" enctype="multipart/form-data"><br><br>
+        <input type="hidden" name="hiddendata" value="abc">
+        Volumn: <input type="range" min="0" max="100" name="volumn">
+
+        <input type="submit" value="Login">
+        <input type="reset">
+        <input type="button" value="Popup" onclick="alert('this is clicked')">
+    </form>
+</body>
+</html>
